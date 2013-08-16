@@ -1,7 +1,7 @@
 {
     "name": "derelict-al",
     "description": "A dynamic binding to the OpenAL library.",
-    "homepage": "https://github.com/DerelictOrg/DerelictUtil",
+    "homepage": "https://github.com/DerelictOrg/DerelictAL",
     "license": "Boost",
     "authors": [
         "Mike Parker"
