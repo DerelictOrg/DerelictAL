@@ -31,19 +31,19 @@ module derelict.openal.types;
 enum AL_VERSION_1_0 = true;
 enum AL_VERSION_1_1 = true;
 
-alias byte ALboolean;
-alias char ALchar;
-alias byte ALbyte;
-alias ubyte ALubyte;
-alias short ALshort;
-alias ushort ALushort;
-alias int ALint;
-alias uint ALuint;
-alias int ALsizei;
-alias int ALenum;
-alias float ALfloat;
-alias double ALdouble;
-alias void ALvoid;
+alias ALboolean = byte;
+alias ALchar = char;
+alias ALbyte = byte;
+alias ALubyte = ubyte;
+alias ALshort = short;
+alias ALushort = ushort;
+alias ALint = int;
+alias ALuint = uint;
+alias ALsizei = int;
+alias ALenum = int;
+alias ALfloat = float;
+alias ALdouble = double;
+alias ALvoid = void;
 
 enum : ALboolean {
     AL_FALSE               = 0,
@@ -138,22 +138,22 @@ enum : ALenum {
 // alc
 enum ALC_VERSION_0_1 = true;
 
-alias void ALCdevice;
-alias void ALCcontext;
+alias ALCdevice = void;
+alias ALCcontext = void;
 
-alias byte ALCboolean;
-alias char ALCchar;
-alias byte ALCbyte;
-alias ubyte ALCubyte;
-alias short ALCshort;
-alias ushort ALCushort;
-alias int ALCint;
-alias uint ALCuint;
-alias int ALCsizei;
-alias int ALCenum;
-alias float ALCfloat;
-alias double ALCdouble;
-alias void ALCvoid;
+alias ALCboolean = byte;
+alias ALCchar = char;
+alias ALCbyte = byte;
+alias ALCubyte = ubyte;
+alias ALCshort = short;
+alias ALCushort = ushort;
+alias ALCint = int;
+alias ALCuint = uint;
+alias ALCsizei = int;
+alias ALCenum = int;
+alias ALCfloat = float;
+alias ALCdouble = double;
+alias ALCvoid = void;
 
 enum : ALCboolean {
     ALC_FALSE           = 0,

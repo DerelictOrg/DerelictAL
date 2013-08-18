@@ -27,10 +27,7 @@ DEALINGS IN THE SOFTWARE.
 */
 module derelict.openal.functions;
 
-private
-{
-    import derelict.openal.types;
-}
+private import derelict.openal.types;
 
 extern( C ) nothrow {
     alias da_alEnable = void function( ALenum );

@@ -32,8 +32,7 @@ public {
     import derelict.openal.functions;
 }
 
-private
-{
+private {
     import derelict.util.loader;
     import derelict.util.system;
 
