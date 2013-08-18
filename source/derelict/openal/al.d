@@ -48,6 +48,10 @@ private
 }
 
 class DerelictALLoader : SharedLibLoader {
+    public this() {
+        super( libNames );
+    }
+
     protected {
         override void loadSymbols() {
             bindFunc( cast( void** )&alEnable, "alEnable" );
@@ -142,12 +146,6 @@ class DerelictALLoader : SharedLibLoader {
             bindFunc( cast( void** )&alcCaptureStart, "alcCaptureStart" );
             bindFunc( cast( void** )&alcCaptureStop, "alcCaptureStop" );
             bindFunc( cast( void** )&alcCaptureSamples, "alcCaptureSamples" );
-        }
-    }
-
-    public {
-        this() {
-            super( libNames );
         }
     }
 }
