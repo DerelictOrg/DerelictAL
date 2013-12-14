@@ -27,11 +27,6 @@ DEALINGS IN THE SOFTWARE.
 */
 module derelict.openal.al;
 
-public {
-    import derelict.openal.types;
-    import derelict.openal.functions;
-}
-
 private {
     import derelict.util.loader;
     import derelict.util.system;
