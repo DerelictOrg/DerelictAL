@@ -19,5 +19,5 @@ void main() {
 }
 ```
 
-[1] http://dblog.aldacron.net/derelict-help/using-derelict/
-[2] https://github.com/DerelictOrg/DerelictUtil/wiki/DerelictUtil-for-Users
+[1]: http://dblog.aldacron.net/derelict-help/using-derelict/
+[2]: https://github.com/DerelictOrg/DerelictUtil/wiki/DerelictUtil-for-Users
