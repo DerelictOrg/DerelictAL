@@ -255,7 +255,7 @@ enum : ALenum {
     AL_FORMAT_STEREO_IMA4                   = 0x1301,
 }
 
-extern( C ) nothrow {
+extern( C ) @nogc nothrow {
     alias da_alEnable = void function( ALenum );
     alias da_alDisable = void function( ALenum );
     alias da_alIsEnabled = ALboolean function( ALenum );
