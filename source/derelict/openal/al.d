@@ -114,7 +114,7 @@ enum : ALenum {
     AL_FORMAT_STEREO8       = 0x1102,
     AL_FORMAT_STEREO16      = 0x1103,
 
-    AL_FREQUENCEY           = 0x2001,
+    AL_FREQUENCY            = 0x2001,
     AL_BITS                 = 0x2002,
     AL_CHANNELS             = 0x2003,
     AL_SIZE                 = 0x2004,
