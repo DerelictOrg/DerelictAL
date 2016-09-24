@@ -121,7 +121,7 @@ enum : ALenum {
 
     AL_UNUSED               = 0x2010,
     AL_PENDING              = 0x2011,
-    AL_PROCESSID            = 0x2012,
+    AL_PROCESSED            = 0x2012,
 
     AL_NO_ERROR             = AL_FALSE,
 
