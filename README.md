@@ -3,7 +3,7 @@ DerelictAL
 
 A dynamic binding to [OpenAL][1] for the D Programming Language.
 
-Please see the [Derelict documentation] for information on how to build DerelictAL and load OpenAL at run time. In the meantime, here's some sample code.
+Please see the [Derelict documentation][2] for information on how to build DerelictAL and load OpenAL at run time. In the meantime, here's some sample code.
 
 ```D
 import derelict.openal.al;
