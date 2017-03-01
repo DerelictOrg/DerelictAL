@@ -1,0 +1,8 @@
+name "derelict-al"
+description "A dynamic binding to the OpenAL library."
+homepage "https://github.com/DerelictOrg/DerelictAL"
+license "Boost"
+authors "Mike Parker"
+targetName "DerelictAL"
+targetPath "lib"
+dependency "derelict-util" version="~>3.0.0-alpha.2"
