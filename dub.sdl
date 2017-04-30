@@ -3,6 +3,16 @@ description "A dynamic binding to the OpenAL library."
 homepage "https://github.com/DerelictOrg/DerelictAL"
 license "Boost"
 authors "Mike Parker"
-targetName "DerelictAL"
+targetType "library"
 targetPath "lib"
-dependency "derelict-util" version="~>3.0.0-alpha.2"
+targetName "DerelictAL"
+
+configuration "derelict-al-dynamic" {
+    excludedSourceFiles "source/derelict/al/statfun.d"
+    dependency "derelict-util" version="~>3.0.0-alpha.2"
+}
+
+configuration "derelict-al-static" {
+    excludedSourceFiles "source/derelict/al/dynload.d"
+    versions "DerelictAL_Static"
+}
