@@ -9,7 +9,7 @@ targetName "DerelictAL"
 
 configuration "derelict-al-dynamic" {
     excludedSourceFiles "source/derelict/al/statfun.d"
-    dependency "derelict-util" version="~>3.0.0-alpha.2"
+    dependency "derelict-util" version="~>3.0.0-beta.1"
 }
 
 configuration "derelict-al-static" {
