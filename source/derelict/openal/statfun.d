@@ -32,7 +32,7 @@ version(DerelictAL_Static):
 
 public import derelict.openal.types;
 
-extern(System) @nogc nothrow {
+extern(C) @nogc nothrow {
     void alEnable(ALenum);
     void alDisable(ALenum);
     ALboolean alIsEnabled(ALenum);
